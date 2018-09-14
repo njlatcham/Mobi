@@ -1,0 +1,263 @@
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-cancel-button,[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+
+html {
+    font-size: 10px;
+    font-family: 'montserrat', sans-serif;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+header {
+    background-image: url("../assets/breather-196130.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+.edge {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    color: red;
+    display: inline-block;
+    font-size: 38px;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 100px;
+}
+
+.top {
+    color: white;
+    float: right;
+    font-size: 18px;    
+    padding-top: 100px;
+    text-transform: uppercase;
+}
+
+.top li {
+    float: left;
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    width: 35%;
+    padding-top: 200px;
+}
+
+section {
+    margin-top: 30px;
+}
+
+.one {
+    float: left;
+    margin-top: 200px;
+    text-align: right;
+    width: 33%;
+}
+
+h4 {
+    color: #939393;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.line1 {
+    float: right;
+    height: 2px;
+    background-color: #939393;
+    width: 50%;
+}
+
+h3 {
+    clear: both;
+    color: black;
+    font-size: 33px;
+    font-weight: bold;
+    width: 275px;
+}
+
+.one h3 {
+    float: right;
+}
+
+p {
+    clear: both;
+    color: red;
+    font-size: 17px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.photo1, .photo2 {
+    padding-left: 30px;
+}
+
+.photo1 {
+    width: 33%;
+}
+
+.photo2 {
+    width: 30%;
+}
+
+.two {
+    float: left;
+    width: 68%;
+    text-align: right;
+    background-color: rgba(160, 159, 159, 0.5);
+    padding: 225px 0;
+}
+
+.two h4 {
+    padding-right: 20px;
+}
+
+.line2 {
+    float: right;
+    height: 2px;
+    background-color: #939393;
+    width: 30%;
+    margin-right: 20px;
+}
+
+.two h3 {
+    float: right;
+    padding-right: 20px;
+}
+
+.two p {
+    padding-right: 20px;
+}
+
+.photo3 {
+    width: 30%;
+    padding-left: 30px;
+}
+
+.photo4 {
+    width: 68%;
+}
+
+.three {
+    background-color: rgba(160, 159, 159, 0.5);
+    float: right;
+    margin-top: 100px;
+    margin-left: 30px;
+    width: 30%;
+    padding: 238.5px 0;
+}
+
+.three h4 {
+    padding-left: 20px;
+}
+
+.line3 {
+    height: 2px;
+    background-color: #939393;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.three h3 {
+    padding-left: 20px;
+}
+
+.three p {
+    padding-left: 20px;
+}
+
+footer {
+    margin-top: 30px;
+    margin-bottom: 0;
+    background-color: rgba(160, 159, 159, 0.5);
+}
+
+.logo {
+    color: red;
+    display: inline-block;
+    font-size: 38px;
+    font-weight: bold;
+    height: 200px;
+    padding-top: 20px;
+    padding-right: 250px;
+    float: left;
+}
+
+.nav {
+    font-size: 18px;
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 20px;
+    text-transform: uppercase;
+    width: 20%;
+    float: left;
+}
+
+li {
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.social {
+    font-size: 18px;
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 20px;
+    text-transform: uppercase;
+    width: 20%;
+}
+
+.bottom {
+    color: #939393;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 30px;
+    text-decoration: none;
+    width: 20%;
+}
+
+.line4 {
+    background-color: #939393;
+    float: right;
+    height: 2px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.footer {
+    color: #939393;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    position: absolute;
+}
+
+.hackeryou {
+    color: #939393;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
